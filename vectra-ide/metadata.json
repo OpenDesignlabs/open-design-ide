@@ -1,0 +1,5 @@
+{
+  "name": "Vectra IDE",
+  "description": "A comprehensive, integrated development suite prototype featuring a dashboard, code editor, project manager, and visual canvas.",
+  "requestFramePermissions": []
+}

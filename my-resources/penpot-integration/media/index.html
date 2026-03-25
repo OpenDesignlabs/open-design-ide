@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vectra</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="toolbar">
+            <button class="tool-btn active" id="tool-select" title="Select (V)">↖️</button>
+            <button class="tool-btn" id="tool-rect" title="Rectangle (R)">⬜</button>
+            <button class="tool-btn" id="tool-pen" title="Pen (P)">✒️</button>
+            <button class="tool-btn" id="tool-text" title="Text (T)">T</button>
+            <button class="tool-btn" id="tool-embed" title="Embed Website (E)">🌍</button>
+            
+            <div style="height: 15px;"></div>
+            
+            <button class="tool-btn" id="action-undo" title="Undo (Ctrl+Z)">↩️</button>
+            <button class="tool-btn" id="action-redo" title="Redo (Ctrl+Y)">↪️</button>
+
+            <div style="height: 15px;"></div>
+
+            <button class="tool-btn" id="action-up" title="Bring Forward">⬆️</button>
+            <button class="tool-btn" id="action-down" title="Send Backward">⬇️</button>
+            <button class="tool-btn" id="action-delete" title="Delete (Del)" style="color: #ff5252;">🗑️</button>
+
+            <div style="height: 15px;"></div>
+            <button class="tool-btn" id="tool-code" title="Export HTML" style="color: #44ff44;">💻</button>
+            <button class="tool-btn" id="btn-save" title="Save" style="margin-top: auto;">💾</button>
+        </div>
+
+        <div id="layers-panel">
+            <h3>Layers</h3>
+            <div id="layers-content"></div>
+        </div>
+
+        <div id="viewport">
+            <canvas id="canvas"></canvas>
+            <div id="debug">Vectra Ready</div>
+        </div>
+
+        <div id="properties">
+            <h3>Properties</h3>
+            <div id="props-content"></div>
+        </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

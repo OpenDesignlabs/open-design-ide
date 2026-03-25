@@ -1,0 +1,28 @@
+{
+  "name": "opendesign-canvas",
+  "displayName": "Open Design Editor",
+  "description": "Professional Vector Design Tool",
+  "version": "1.0.0",
+  "publisher": "opendesign",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "activationEvents": [
+    "onCustomEditor:opendesign.canvas"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "customEditors": [
+      {
+        "viewType": "opendesign.canvas",
+        "displayName": "Open Design Canvas",
+        "selector": [
+          { "filenamePattern": "*.design" },
+          { "filenamePattern": "*.vectra" },
+          { "filenamePattern": "*.json" }
+        ],
+        "priority": "default"
+      }
+    ]
+  }
+}

@@ -1,3 +1,9 @@
+# 🚨 PROJECT TERMINATED / CLOSED 🚨
+
+**This project has been officially closed and terminated by the maker. No further development, updates, or support will be provided.**
+
+---
+
 <div id="open-design-ide-logo" align="center">
     <br />
     <h1>Open Design IDE 🖌️💻</h1>

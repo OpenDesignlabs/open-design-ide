@@ -50,7 +50,7 @@ jobs:
             vscode_arch: arm64
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           ref: ${{ env.GITHUB_BRANCH }}
 

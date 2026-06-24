@@ -35,7 +35,7 @@ jobs:
       VSCODE_QUALITY: insider
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           ref: insider
 
